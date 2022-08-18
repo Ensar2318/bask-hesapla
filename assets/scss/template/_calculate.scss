@@ -14,6 +14,9 @@
         }
     }
     .swiper-pagination {
+        @media(max-width:600px){
+            display: none;
+        }
         .swiper-pagination-bullet {
             width: 12px;
             height: 12px;
@@ -139,6 +142,10 @@
             font-weight: 600;
             font-size: 16px;
             border-radius: 4px;
+            transition: 0.6s;
+        &:hover{
+            background-color: rgba(67, 73, 107, 0.8);
+        }
         }
     }
 }
