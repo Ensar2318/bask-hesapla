@@ -5723,6 +5723,10 @@ body.op-modal-open {
     scroll-behavior: auto;
   }
 }
+html, body {
+  scroll-behavior: smooth !important;
+}
+
 .calculateSwiper {
   padding: 10px;
 }
